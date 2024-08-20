@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: darkslategray;
+}
+form{
+  padding: 10px;
+}
+form div{
+  margin-top: 20px;
+}
+form div label{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: white;
+}
+form div input{
+  width: 380px;
+  height: 35px;
+  padding: 0px 5px 0px;
+  border: solid 1px rgb(35, 38, 50) ;
+  border-radius: 3px;
+  background-color: white;
+  line-height: 35px;
+}
+.remo{
+  height: 35px;
+  margin-left: 20px;
+  background-color: rgb(148, 8, 8);
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+.remo:focus{
+  background-color: rgb(113, 28, 28);
+  border: 1px solid black;
+}
+.sub{
+  padding: 15px;
+  height: 25px;
+  font-size: 17px;
+  line-height: 4px;
+  margin-top:10px;
+  background-color: rgba(213, 192, 173, 0.8);
+  border: none;
+  border-radius: 3px;
+
+}
+.sub:focus{
+  background-color: rgb(116, 107, 99);
+  border: 1px solid black;
+
+}
